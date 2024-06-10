@@ -27,6 +27,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14',
     creationBlock: 3543575,
   },
+  // sepolia
+  [666888999777]: {
+    router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',
+    weth: '0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14',
+    creationBlock: 3543575,
+  },
   // polygon
   [137]: {
     router: '0x643770E279d5D0733F21d6DC03A8efbABf3255B4',
